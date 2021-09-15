@@ -1,0 +1,16 @@
+Algortima Menghitung Luas dan keliling untuk jari-jari tertentu
+
+input:
+Deklarasi variable jari-jari(R)
+Deklarasi variable Luas 
+Deklarasi variabel Keliling
+Deklarasi Variabel Constanta Phi Sebesar 3.14
+
+Proses:
+Masukan nilai Jari-jari(R)
+Hitung Luas  phi * R * R
+Hitung Keliling  2 * phi * R
+
+Output:
+Tampilkan Hasil Luas 
+Tampilkan Hasil Keliling 

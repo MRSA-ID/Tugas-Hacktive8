@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio rama</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav id="navbar" class="cf">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#product">Product</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#inventory">Inventory</a></li>
+		</ul>
+	</nav>
+	<div id="profile-section" class="cf">
+		<section class="profile-display cf">
+			<section class="profile-picture">
+				<img src="ppicture (rama).jpeg" alt="" >
+			</section>
+			<div class="title">
+				<h1>Muhammad Ramadhan Sangisda Alam</h1>
+				<p>BackEnd</p>
+			</div>
+			<div class="buttons">
+				<button class="edit" id="edit">Edit</button>
+				<button class="resume">Resume</button>
+			</div>
+		</section>
+		<section class="profile-details">
+			<table>
+				<tr id="availability">
+					<th >Availability</th>
+					<td >Full Time</td>
+				</tr>
+				<tr id="usia">
+					<th>Usia</th>
+					<td>20</td>
+				</tr>
+				<tr id="lokasi">
+					<th>Lokasi</th>
+					<td>Bekasi, Jawa Barat</td>
+				</tr>
+				<tr id="pengalaman">
+					<th>Pengalaman</th>
+					<td>15</td>
+				</tr>
+				<tr id="email">
+					<th>Email</th>
+					<td>122131@bsi.ac.id</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+	<div class="form">
+		<form id="input_profile" action="">
+			<div class="input-table">
+				<label for="nama">Nama</label>
+				<input type="text" name="nama" id="input_nama" required>
+			</div>
+
+			<div class="input-table">
+				<label for="role">Role</label>
+				<input type="text" name="role" id="input_role"required>
+			</div>
+
+			<div class="input-table">
+				<label for="availability">Availability</label>
+				<input type="text" name="availability" id="input_availability"required>
+			</div>
+
+			<div class="input-table">
+				<label for="age">Age</label>
+				<input type="number" name="age" id="input_age"required>
+			</div>
+
+			<div class="input-table">
+				<label for="lokasi">Lokasi</label>
+				<input type="text" name="lokasi" maxlength="100" id="input_lokasi"required></input>
+			</div>
+
+			<div class="input-table">
+				<label for="yearsExperience">Years Experience</label>
+				<input type="text" name="yearsExperience" id="input_yearExperience"required>
+			</div>
+
+			<div class="input-table">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="input_email"required>
+			</div>
+			
+			<button type="submit" >SUBMIT</button>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+PSEUCODE:
+SET "phi" value 3.14
+GET "R" with any value
+
+STORE "Keliling" without any value
+STORE "LUAS" without any value
+
+DO CALCULATE "phi" MULTIPLY "R" MULTIPLY "R"
+SET "LUAS" with calculation result
+DO CALCULATE 2 MULTIPLY "phi" MULTIPLY 'R'
+SET "Keliling" with calculation result
+
+DISPLAY "lUAS"
+DISPLAY "Keliling"
