@@ -2,28 +2,6 @@
   text-align: center;
 }
 
-/* ul div{
-  display: inline-block;
-} */
-ul{
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-}
-
-ul li{
-  
-  list-style: none;
-  /* display: inline-block; */
-  flex-direction: row-reverse;
-  padding: 10px;
-  margin: 0 20px;
-  font-weight: bold;
-  background-color: orange;
-  color: white;
-}
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

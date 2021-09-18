@@ -21,7 +21,7 @@ function App() {
       setAntrian(antrian => [...antrian.slice(1), username])
     }
     else{
-      setAntrian(antrian => [...antrian, [style],username])
+      setAntrian(antrian => [...antrian , [style],username])
     }
   }
 
@@ -34,12 +34,10 @@ function App() {
       setAntrian(antrian => [...antrian.slice(1), '[ Antrian Kosong ! ]'])
       alert(`Tidak Ada yang untuk Dimajukan Karna Antrian Kosong (${antrian.length - 1})`)
     }else{
-      setAntrian(antrian => [...antrian.slice(1).slice(1)])
+      setAntrian(antrian => [...antrian.slice(2)])
     }
-    
   }
-
-  const Antrian = ({username}) => <div><li>{username}</li></div>
+  const Antrian = ({username}) => <div className="Antrian"><li>{username}</li></div>
 
   return (
     <div className="App">
